@@ -32,17 +32,3 @@ body {
     padding: 60px;
     background-color: rgb(216, 81, 81);
 }
-.btn {
-    display: inline-block;
-    background-color: #36f;
-    padding: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 4px;
-    line-height: 20px;
-    font-size: 24px;
-    text-decoration: none;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
