@@ -24,32 +24,32 @@ body {
     padding: 40px;
     margin-top: 20px;
     background-color: #494eac;
+    color: #fff;
 }
 
 .main-title {
     display: inline-block;
+    width: 100%;
     font-size: 32px;
     font-weight: normal;
+}
+
+.bottom-links {
+    display: inline-block;
     width: 100%;
 }
 
-.bottom-links{
-    display: inline;
-    width: 100%;
-}
-
-.bottom-link > link {
+.bottom-links > .link {
     color: #fff;
     font-size: 14px;
 }
 
-.bottom-links > symbol {
-
+.bottom-links > .symbol {
 }
 
 .right-column {
     width: 60%;
     float: left;
     padding: 60px;
-    background-color: rgb(216, 81, 81);
+    background-color: #fff;
 }
