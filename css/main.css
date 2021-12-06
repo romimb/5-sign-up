@@ -26,6 +26,27 @@ body {
     background-color: #494eac;
 }
 
+.main-title {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: normal;
+    width: 100%;
+}
+
+.bottom-links{
+    display: inline;
+    width: 100%;
+}
+
+.bottom-link > link {
+    color: #fff;
+    font-size: 14px;
+}
+
+.bottom-links > symbol {
+
+}
+
 .right-column {
     width: 60%;
     float: left;
