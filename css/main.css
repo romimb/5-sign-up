@@ -24,6 +24,9 @@ body {
     padding: 40px;
     margin-top: 20px;
     background-color: #494eac;
+    background-image: url(../img/hill.png);
+    background-position: center;
+    background-size: cover;
     color: #fff;
 }
 
@@ -52,4 +55,8 @@ body {
     float: left;
     padding: 60px;
     background-color: #fff;
+}
+.close {
+    display: inline-block;
+    background-color: red;
 }
