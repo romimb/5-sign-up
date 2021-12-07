@@ -56,3 +56,7 @@ body {
     padding: 60px;
     background-color: #fff;
 }
+.close {
+    display: inline-block;
+    background-color: red;
+}
