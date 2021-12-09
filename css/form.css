@@ -3,10 +3,14 @@
     width: 100%;
 }
 
-.form > form-row {
+.form > .form-row {
     display:inline-block;
     width: 100%;
     margin-bottom: 30px;
+}
+
+.form > .form-row:last-of-type {
+    margin-bottom: 0;
 }
 
 .form > .form-row > label {
@@ -16,10 +20,20 @@
 }
 
 .form > .form-row > input {
-    display:inline-block;
+    display: inline-block;
     width: 100%;
     font-size: 20px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    line-height: 40px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+.form > .form-row > input:focus {
+    outline: violet dotted 1px;
+    /* outline: none; */
+}
+
+.form input::placeholder {
+    color: #999;
+    font-style: italic;
 }
